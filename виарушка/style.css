@@ -1,9 +1,4 @@
-.container {
-    padding: 0;
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
-}
+
 
 .header {
     display: flex;
@@ -92,7 +87,8 @@
 .footer__option_link {
     color: #5222D0;
     text-decoration: none;
-    font-weight: 100;
+    font-size: large;
+    font-weight: 200;
 }
 a:hover {
     color: #321285;

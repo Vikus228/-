@@ -1,0 +1,102 @@
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    border: 2px;
+    border-color: black;
+}
+
+.header__header_img {
+    width: 80px;
+}
+
+.header__header_name {
+    margin-right: 700px;
+}
+
+.header__main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 20px 0px 20px 30px;
+}
+
+.header__main_btn {
+    background-color: #5222D0;
+    color: aliceblue;
+    border-radius: 20px;
+    border: 0;
+    width: 120px;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 65px;
+    font-weight: 800;
+    margin: 20px 0px 30px 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+.main__col {
+    margin-bottom: 10px;
+}
+
+.main__col_card {
+    border-radius: 0%;
+    border: 0;
+    width: 27vw;
+}
+
+.card_title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.card_title_news {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.card_subscription {
+    background-color: #EC615B;
+}
+
+.form_control {
+    border-radius: 0;
+}
+
+.card_btn {
+    background-color: #5222D0;
+    color: aliceblue;
+    border-radius: 20px;
+    font-size: small;
+    font-weight: 800;
+}
+
+.main__col_cardImg {
+    border-radius: 0%;
+    height: 40vh;
+}
+
+
+.footer__option_link {
+    color: #000000;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 200;
+    margin-left: 40px;
+}
